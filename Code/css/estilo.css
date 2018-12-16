@@ -1,0 +1,729 @@
+body {
+	background-color: #CDCDCD;
+}
+
+div#contenedor {
+	display: block;
+	margin: auto;
+	border: 1px solid black;
+	background-color: #aaaaaa;
+	min-height: 1000px;
+	
+}
+
+div#contenedor #principal{
+	display: flex;
+  	flex-direction: row;
+  	min-height: 1000px;
+}
+
+div#cabecera {
+  background: url("../imagenes/cabecera_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  color: white;
+}
+
+div#cabecera .busqueda {
+text-align: right;
+margin-top:20px;
+
+}
+div#cabecera .busqueda .inputSearch {
+
+border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 15px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+
+div#cabecera .busqueda .searchBoton {
+
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+div#cabecera .logo {
+margin-top: 5px;
+display:flex;
+max-height:200px ;
+width:600px;
+margin-left: 60px;
+
+}
+
+div#cabecera .saludo {
+		font-family: Apple Chancery, cursive;
+	width: 100%;
+	text-align: right;
+	margin-top:-50px;
+}
+
+ div#cabecera .navbar ul { 
+ 	background: url("../imagenes/cabecera_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	font-family: Arial, sans-serif; 
+ padding: 5px; 
+ list-style-type: none; 
+ text-align: left; 
+ background-color: #303030; 
+ } 
+ 
+ div#cabecera .navbar ul li {  
+ display: inline; 
+ } 
+ 
+ div#cabecera .navbar ul li a { 
+ text-decoration: none; 
+ padding: .2em 1em; 
+ color: #FFFFFF; 
+ background-color: #555555;
+ border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ } 
+ div#cabecera .navbar ul li select {
+     font-family: Arial, sans-serif; 
+text-decoration: none; 
+ padding: .2em 1em; 
+ color: #FFFFFF; 
+ background-color: #555555;
+ border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+width: 150px;
+     font-weight: bold;
+	text-decoration: none;
+ } 
+
+
+
+ 
+ div#cabecera .navbar ul li a:hover { 
+ color: #000; 
+ background-color: #fff; 
+ } 
+
+
+div#cabecera a, div#cabecera a:visited {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+div#cabecera a:hover {
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+} 
+
+
+div#sidebar-left {
+	float: left;
+	text-align: left;
+	width: 200px;
+	height: auto;
+	background-color: #dddddd;
+	
+}
+
+div#sidebar-left a, div#sidebar-left a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+div#sidebar-left a:hover {
+	color: black;
+	text-decoration: underline;
+} 
+
+div#sidebar-right {
+	float: right;
+	text-align: left;
+	width: 200px;
+	height: 1000px;
+	background-color: #dddddd;
+}
+
+div#sidebar-right a, div#sidebar-right a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+div#sidebar-right a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+div#contenido {
+	float: left;
+	text-align: left;
+	width: 100%;
+	flex-grow: 1;
+	height: auto;
+	min-height: 1000px;
+	background: url("../imagenes/4.jpg") no-repeat center center fixed;
+	
+}
+div#contenidoIndex {
+	background: url("../imagenes/index.jpg") no-repeat center center fixed;
+	background-size: cover;
+	float:right;
+	width: 100%;
+	min-height: 1000px;
+}
+div#contenidoLogin {
+	background: url("../imagenes/photo_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	float:right;
+	width: 100%;
+	min-height: 1000px;
+}
+div#contenidoRegistro {
+	background: url("../imagenes/photo_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	float:right;
+	width: 100%;
+	min-height: 1000px;
+}
+div#contenidoPerfil {
+	background: url("../imagenes/4.jpg") no-repeat center center fixed;
+	background-size: cover;
+	float:right;
+	width: 100%;
+	min-height: 1000px;
+}
+
+
+div#contenidoPerfil .tiempo{
+ padding: .2em 1em;  
+ background-color: #555555;
+ border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  width: 15%;
+  font-family: Arial, sans-serif; 
+   color: #FFFFFF; 
+     font-weight: bold;
+
+}
+
+div#pie {
+	clear: both;
+	color: white;
+	text-align: center;
+	background: url("../imagenes/cabecera_bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+  height: 110px;
+  color: white;
+}
+
+fieldset {
+	border: 1px solid black;
+	width: 80%;
+	margin: 0 auto;
+}
+
+legend {
+	color: #fff;
+	background: #303030;
+	border: 1px solid black;
+	padding: 2px 6px;
+} 
+
+label {
+	margin-right: 0.5em;
+	display: block;
+}
+ div.navbar ul { 
+ margin: 0; 
+ list-style-type: none; 
+ text-align: left; 
+ background-color: #303030; 
+ } 
+ 
+ div.navbar ul li {  
+ display: inline; 
+ } 
+ 
+ div.navbar ul li a { 
+ text-decoration: none; 
+ padding: .2em 1em; 
+ color: #fff; 
+ background-color: #000; 
+ } 
+ 
+ div.navbar ul li a:hover { 
+ color: #000; 
+ background-color: #fff; 
+ } 
+div#contenidoPeliculasAux {
+	background: url("../imagenes/1.jpg") no-repeat center center fixed;
+	background-size: cover;
+	float:right;
+	width: 100%;
+	min-height: 1000px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+
+	
+}
+div#contenidoPeliculas {
+	 display: flex;
+	  align-self: flex-start;
+     align-items: flex-start;
+   	flex-direction:row;
+	flex-wrap:wrap;
+	
+}
+div#contenidoPeliculasAux h2{
+	
+	padding: 20px;
+	
+}
+div#contenidoRetosAux {
+	background: url("../imagenes/infoPeli.jpg") no-repeat center center fixed;
+	background-size: cover;
+	float:right;
+	width: 100%;
+	min-height: 1000px;
+	font-family: Arial, sans-serif;
+	text-align: center;
+
+	
+}
+div#contenidoRetos {
+	 display: flex;
+	  align-self: flex-start;
+     align-items: flex-start;
+   	flex-direction:row;
+	flex-wrap:wrap;
+
+	
+}
+div#contenidoRetos .reto h3{
+	 
+	text-align: center; 
+	text-decoration: underline;
+	 font-weight: bold;
+
+}
+
+div#contenidoRetos .reto  a:visited {
+	color:blue;
+	text-decoration: none;
+}
+
+div#contenidoRetos .reto{
+	 padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 8px;
+    margin: 20px;
+   padding: .2em 2em; 
+	text-align: left;
+	font-family: Apple Chancery, cursive;
+	background-color:#ffff66;
+
+	
+}
+
+div#contenidoRankingAux {
+	background: url("../imagenes/infoPeli.jpg") no-repeat center center fixed;
+	background-size: cover;
+	float:right;
+	width: 100%;
+	min-height: 1000px;
+	font-family: Arial, sans-serif;
+
+}
+div#contenidoRanking {
+	margin:20px;
+
+}
+
+div#contenidoRanking .ranking{
+	width: 20%;
+	 padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: #819FF7;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    border-radius: 8px;
+    margin: 20px;
+   padding: .2em 2em; 
+
+}
+
+div#contenidoRanking .rankingAux{
+	display:flex;
+		flex-direction:row;
+	flex-wrap:wrap;
+
+
+}
+
+div#contenidoRanking .columnaExtra{
+	width: 5%;
+    border: 1px solid #BFBFBF;
+    background-color: #81BEF7;
+    box-shadow: 10px 10px 5px #aaaaaa;
+   border-radius: 50%;
+    margin: 20px;
+   padding: .2em 2em;
+   	font-family: Arial, sans-serif;
+   	 color:white;
+   	 text-align: center;
+vertical-align: middle;
+line-height: 35px;
+
+}
+
+div#contenidoFichaPelicula {
+	background: url("../imagenes/infoPeli.jpg") no-repeat center center fixed;
+	background-size: cover;
+	float:right;
+	width: 100%;
+	min-height: 1000px;
+	
+	
+}
+
+ div.TituloPelicula {
+	width: auto;
+	height: auto;
+	margin: 50px;
+	text-align: left;
+
+}
+ div.Sinopsis {
+	width: 85%;
+	height: auto;
+	margin: 20px;
+	text-align: left;
+
+
+}
+
+ div.comentario {
+	border: 10px solid transparent;
+    padding: 15px;
+    border-image-source: url("../imagenes/border.png");    
+    border-image-slice: 30;
+	margin-left: 19%;
+	width: auto;
+	padding: 1%;
+	margin-right: 60%;
+	background-color: #e6e6e6;
+	border-radius: 2%;
+	margin-bottom: 2%;
+
+}
+
+div#contenidoPeliculas .pelicula{
+	margin: 20px;
+	height: 380px;
+	word-wrap: break-word;
+    width: 215px;
+    text-align: center;
+     border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    color:white;
+     background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+div#contenidoPeliculas h2{
+	
+	width: 100%;
+	text-align: center;
+	max-height: 20px;
+	
+
+	
+}
+div#contenidoPeliculas h3{
+	
+	width: 100%;
+	text-align: center;
+	max-height: 20px;
+
+	
+}
+
+div.InfoPelicula{
+	width: 215px;
+	height: 290px;
+	float:left;
+	height: auto;
+	margin:50px;
+	 border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    color:white;
+     background-color: #424242;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.InfoPelicula img{
+	
+	 border: 1px solid #ddd;
+    border-radius: 8px;
+  
+
+}
+
+/*login*/
+p.small {
+	font-size: 0.8em;
+	margin: 20px 0 0;
+}
+
+
+/*Layout */
+div.box-header h2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+.top {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%); / FF3.6-15 /
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); / Chrome10-25,Safari5.1-6 /
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.6) 0%,rgba(0,0,0,0) 100%); / W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ /
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); / IE6-9 /
+}
+
+.login-box {
+	background-color: white;
+	max-width: 340px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	padding-bottom: 0px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.login-box .box-header {
+	background-color: #665851;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.login-box label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.login-box input {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: .9em;
+	color: #888;
+}
+
+.login-box input:focus {
+	outline: none;
+	border-color: #665851;
+	transition: 0.5s;
+	color: #665851;
+}
+
+.login-box button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #665851;
+	cursor:pointer;
+	outline: none;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.selected {
+	color: #665851!important;
+	transition: 0.5s;
+}
+
+/* Animation Delay */
+#logo {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 2s;
+}
+
+.login-box {
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+}
+
+/*carrousel*/
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 250px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/*progress bar*/
+progress[value] {
+	/* Elimino la apariencia por defecto */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	
+	/* Quito el borde que aparece en Firefox */
+	border: none;
+
+	/* Añado mis propios estilos */
+	width: 210px;
+	height: 30px;
+	
+	
+/* 	Estos estilos solo se aplicaran al fondo de la barra en mozilla */
+	overflow:hidden;
+	border:1px inset #666;
+	background-color:#D8D8D8;
+	border-radius : 20px ; 
+}
+
+.progress{
+	float:left;
+	margin-right:30px;
+	margin-bottom:20px;
+}
+
+.progress span{
+	
+	font-weight:bold;
+	
+
+}
+
+/* Compatibilidad de color en Firefox, Chrome y Safari */
+progress::-moz-progress-bar{ 
+	background: #FF8000;
+	background: rgba(255,175,75,1);
+	background: -moz-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+	background: -webkit-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );	
+	border-radius : 20px ; 
+	} 
+progress::-webkit-progress-value { 
+	background: #FF8000;
+	background: rgba(255,175,75,1);
+	background: -moz-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+	background: -webkit-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -o-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: -ms-linear-gradient(left, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	background: linear-gradient(to right, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );
+	border-radius : 20px ; 	
+
+}
+progress::-webkit-progress-bar { 
+	background-color:#D8D8D8;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+	border-radius : 20px ; 
+		
+	
+}
